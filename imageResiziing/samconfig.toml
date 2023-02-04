@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "imageResizing"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-11efdxwt8qu5g"
+s3_prefix = "imageResizing"
+region = "ap-northeast-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
